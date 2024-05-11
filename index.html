@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <!--  Bootstrap CDN-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Bootstrap CDN - Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!--Icon link-->
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+     
+     <!--CSS stylesheet link-->
+
+
+    <link rel="stylesheet" href="./p2.css">
+
+
+    <style>
+        @font-face {
+            font-family: Poppins-b;
+            src: url(./Poppins-Bold.ttf);
+           
+        }
+    </style>
+
+
+<style>
+    @font-face {
+        font-family: Poppins-r;
+        src: url(./Poppins-Regular.ttf); 
+        
+    }
+</style>
+
+<style>
+    @font-face {
+        font-family: Poppins-sb;
+        src: url(./Poppins-SemiBold.ttf);
+    }
+</style>
+
+<style>
+    @font-face {
+        font-family: Poppins-m;
+        src: url(./Poppins-Medium.ttf);
+    }
+</style>
+
+   
+    
+</head>
+<body style="height: 1050px;">
+    <div class="bg-cover d-flex img-fluid">
+
+        <div class="container">
+            <div class="row">
+               
+                <div class="col-2 text-end">
+                   
+                               
+
+                    <button type="button" class="btn btn-outline-none" data-bs-toggle="modal" data-bs-target="#eg-modal" style="color: #FFFFFF;  font-family: Poppins-m;">
+                        Login
+                     </button>
+                     
+                     <!-- Modal -->
+                     <div class="modal fade" id="eg-modal">
+             
+                         <!-- Dialog Box -->
+                         <div class="modal-dialog">
+             
+                             <!-- Content -->
+                             <div class="modal-content">
+                                
+                                 <!-- Header -->
+                                 <div class="modal-header">
+                                     
+                                     <button type="button" class="btn btn-outline-none" style="color: #192F60; font-size: 30px; margin-right: 30px; font-family: Poppins-sb;"><b>Login</b></button>
+                                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                 </div>
+             
+                                 <!-- Body -->
+                                 <div class="modal-body">
+                                     <span class="input-group-text" id="basic-addon1" style=" align-items: center; border: none;">
+                                    
+                                     <button type="button" class="btn btn-outline-none" style="color: brown; width: 1000px; font-size: 18px; border: 2px solid #C7C7C7; font-family: Poppins-m;"><i class="bi bi-envelope" style="display: inline-block; color: #F44336;"></i><b style="color: #192F60; display: inline-block; margin-left: 15px;">Continue with Gmail</b></button>
+                                 
+                                 </span>
+ 
+                                 <span class="input-group-text" id="basic-addon1" style="align-items: center; border: none;">
+                                   
+                                     <button type="button" class="btn btn-outline-none" style="color: brown; width: 1000px; font-size: 18px; border: 2px solid #C7C7C7; margin-bottom: 60px; font-family: Poppins-m;"><i class="bi bi-facebook" style="color:  #3B5998;"></i><b style="color: #192F60; display: inline-block; margin-left: 15px;">Continue with Facebook</b></button>
+                                 
+                                 </span>
+ 
+                                 </div>
+                                 
+             
+                                 <!-- Footer -->
+                                 <div class="modal-footer">
+ 
+                                     <button type="button" class="btn btn-outline-none" style="color: #192F60; margin-right: 0px; display: inline-block; font-family: Poppins-r;">
+                                        Don’t have account?<a href="" style="color: #F44336; margin-right: 130px;"> Sign UP</a></button>                  
+                                 </div> 
+
+                             </div>
+                         </div>
+                     </div>
+                </div>
+
+                <div class="col-3 text-start">
+                   
+                    <button type="button" class="btn btn-outline-light" style=" font-family: Poppins-m;">Create an Account</button>
+   
+                </div>
+                
+            
+            </div>
+
+    
+        <div class="row">
+            <div class="justify-content-center">
+                <div class="text-denger circle">
+                    <h2 class="logo">e!</h2>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="justify-content-center">
+                <P class="text"><b>Find the best restaurants, cafés, and bars</b></P>
+            </div>
+        </div>
+
+
+        <div class="M">
+            <div class="input-group mb-3 search">
+            <div class="N" style="font-family: Poppins-r; display: inline-block;">
+
+                <span class="input-group-text" id="basic-addon1"> 
+                    <select style="border: none; height: 37px; width: 220px; color: #636F88; font-family: Poppins-r;">
+                       <option selected disabled >Please type a location</option>
+
+                        <option>Sarjapur Road</option>
+                        <option> Bengaluru HSR Layout</option>
+                        <option>Bengaluru Kormangala</option>
+                        <option> Bengaluru Jay Nagar</option>
+                        <option> Bengaluru</option>
+                    
+                    </select>
+                    
+                </span>
+            
+            </div>
+            <div class="O" style="display: inline-block;"> 
+                
+                <span class="input-group-text" id="basic-addon1">
+
+                    <i class="bi bi-search input-group-search" style="color: #636F88; font-family: Poppins-r;"></i>
+
+                      <input type="text" class="form-control" placeholder="Search for restaurants" aria-label="Search for restaurants" aria-describedby="basic-addon1" style="border: none; color: #636F88; font-family: Poppins-r;">
+                </span>
+            
+            </div>
+            </div>
+
+        </div>
+        </div>
+        
+    </div>
+
+    <div class="container">
+        <div class="A">
+            <p class="B"><span class="C"><b>Quick Searches</b></span><br>Discover restaurants by type of meal</p>
+            
+        </div>
+
+        <div class="d-flex flex-wrap">
+            <!--breakfast-->
+            <a href="#" style="color: white;">
+            <div class="d-flex box">
+
+                <div class="l-box">
+                    <img src="./idli.png" alt="Breakfast" class="img-fluid qs-img">
+                </div>
+                
+                <div class="r-box">
+                    <h3 class="title">Breakfast</h3>
+                    <p class="content">Start your day with exclusive breakfast options</p>
+                </div>
+            </div>
+            </a>
+
+
+            <a href="#" style="color: white;">
+
+            <div class="d-flex box">
+
+                <div class="l-box">
+                    <img src="./fullthali.png" alt="Breakfast" class="img-fluid qs-img">
+                </div>
+                
+                <div class="r-box">
+                    <h3 class="title">Lunch</h3>
+                    <p class="content">Start your day with exclusive breakfast options</p>
+                </div>
+            </div>
+            </a>
+
+
+            <a href="#" style="color: white;">
+
+            <div class="d-flex box">
+
+                <div class="l-box">
+                    <img src="./shamosha.png" alt="Breakfast" class="img-fluid qs-img">
+                </div>
+                
+                <div class="r-box">
+                    <h3 class="title">Snacks</h3>
+                    <p class="content">Start your day with exclusive breakfast options</p>
+                </div>
+            </div>
+            </a>
+
+            <br><br><br>
+
+            <a href="#" style="color: white;">
+
+            <div class="d-flex flex-wrap">
+                <!--breakfast-->
+                <div class="d-flex box">
+    
+                    <div class="l-box">
+                        <img src="./paneer.png" alt="Breakfast" class="img-fluid qs-img">
+                    </div>
+                    
+                    <div class="r-box">
+                        <h3 class="title">Dinner</h3>
+                        <p class="content">Start your day with exclusive breakfast options</p>
+                    </div>
+                </div>
+                </a>
+
+                <a href="#" style="color: white;">
+    
+                <div class="d-flex box">
+    
+                    <div class="l-box">
+                        <img src="./drink.png" alt="Breakfast" class="img-fluid qs-img">
+                    </div>
+                    
+                    <div class="r-box">
+                        <h3 class="title">Drinks</h3>
+                        <p class="content">Start your day with exclusive breakfast options</p>
+                    </div>
+                </div>
+                </a>
+
+                <a href="#" style="color: white;">
+    
+                <div class="d-flex box">
+    
+                    <div class="l-box">
+                        <img src="./grouppicture.png" alt="Breakfast" class="img-fluid qs-img">
+                    </div>
+                    
+                    <div class="r-box">
+                        <h3 class="title">Nightlife</h3>
+                        <p class="content">Start your day with exclusive breakfast options</p>
+                    </div>
+                </div>
+                </a>
+    
+
+
+
+        </div>
+    </div>
+</body>
+</html>
